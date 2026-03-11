@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <header>
+    <h1>Sign up header</h1>
+    <nav>
+      <a href="myself.html">About myself</a>
+      <br />
+      <a href="index.html">My work</a>
+    </nav>
+  </header>
+  <body>
+    <p>Sing up here</p>
+    <form action="submit" method="post">
+      <label for="email">email</label>
+      <input type="email" id="email" name="email" required />
+      <br />
+      <label for="password">password</label>
+      <input type="password" id="password" name="password" required />
+      <br />
+      <label for="education">level of education</label>
+      <select name="education" id="education" required>
+        <option value="Primary">Primary school</option>
+        <option value="Secondary>">secondary education</option>
+        <option value="diploma">diploma</option>
+        <option value="degree">degree</option>
+        <option value="masters">masters</option>
+        <option value="pHD">pHD</option>
+      </select>
+      <button type="submit">Done</button>
+    </form>
+  </body>
+</html>
