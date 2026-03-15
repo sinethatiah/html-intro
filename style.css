@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-row: 1fr 1fr 6fr 1fr;
+grid-gap: 30px;
+grid-template-areas: "nav nav"
+                      "about about"
+                      "hobbies talents"
+                      "footer footer"
+}
+
